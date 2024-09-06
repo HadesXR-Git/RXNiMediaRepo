@@ -6,7 +6,7 @@ https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta
 
 
 ## Release List
-#### [Build 2408.2310](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev Build 2408.2310 "Build 2408.2310")   `Dev`
+#### [Build 2408.2310](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202408.2310 "Build 2408.2310")   `Dev`
 ###### This version is only intended for UX Demo & Testing only
 ##### Changelogs
 - No changes as this is the base version
