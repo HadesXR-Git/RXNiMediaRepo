@@ -12,6 +12,6 @@ https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta
 - No changes as this is the base version
 
 ##### Found bugs (as Aug, 30th)
-1. Certain fonts aren't loading as expected (SF Pro and Bahnschrift)
-`bug fix found` Caused by OTF fonts that being used on Publishing-side computer
+1. Certain fonts aren't loading as expected (SF Pro and Bahnschrift) `bug fix found`
+Caused by OTF fonts that being used on Publishing-side computer
 ###### Fix will be included in the next build of TEoV
