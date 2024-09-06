@@ -14,6 +14,6 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 1. Certain fonts aren't loading as expected (SF Pro and Bahnschrift) `bug fix found`
 
 ##### Possible bug fixes (as Aug, 30th)
-Caused by OTF fonts that being used on Publishing-side computer `not implemented yet`
+1. Caused by OTF fonts that being used on Publishing-side computer `not implemented yet`
 
 ###### Fixes will be included in the next build of TEoV
