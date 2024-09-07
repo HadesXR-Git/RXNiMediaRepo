@@ -1,11 +1,11 @@
 RXN iMedia Repository `RXN Studios`
-### The Edge of Vertices `BETA`
+### The Edges of Vertices `BETA`
 ###### Next Version Release: Sept 11th `PLANNED`
 All released versions (both `Dev` and `Stable` builds) will be listed/posted [here](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta "here")
 
 
 ## Release List
-#### [Build XXXX.1109](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202408.2310 "Build 2408.2310")   `Dev`
+#### [Build XXXX.1109](https://hadesxr-git.github.io/RXNiMediaRepo/)   `Dev`
 ###### Planned Release on Sept 11th, 2024
 
 #### [Build 2408.2310](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202408.2310 "Build 2408.2310")   `Dev`
