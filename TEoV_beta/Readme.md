@@ -24,7 +24,7 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 1. Fonts on 'Tentang' and 'Petunjuk Penggunaan' hasnt fixed yet. (Still using SF Pro). `bug fix found`
 2. Few buttons arent properly linked. `no need to specify further`
 
-<br><br><br>
+<br><br>
 
 #### [Build 2408.2310](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202408.2310 "Build 2408.2310")   `Dev`
 ###### This version is only intended for UX Demo & Testing only
