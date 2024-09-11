@@ -5,14 +5,14 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 ## Planned Release Changes
 ###### Next Version Release: Sept 13th `PLANNED`
-#### Build XXXX.1109 `Dev`
+#### Build XXXX.0911 `Dev`
 ###### Newer Release maybe uploaded earlier than planned date.
 1. Adding compiled Embed Videos to the respective pages.
 2. Possibly adding few materials to few sections
 
 
 ## Release List
-#### [Build 1356.1109](https://hadesxr-git.github.io/RXNiMediaRepo/Dev%20Build%201356.1109 "Build 1356.1109")   `Dev`
+#### [Build 1356.0911](https://hadesxr-git.github.io/RXNiMediaRepo/Dev%20Build%201356.0911 "Build 1356.0911")   `Dev`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
 ##### Changelogs
 1. SF Pro fontface change into [Inter Display font](https://github.com/rsms/inter "Inter font"). Yes, an open-source alternative.
