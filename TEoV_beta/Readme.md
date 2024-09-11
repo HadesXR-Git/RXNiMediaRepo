@@ -18,12 +18,13 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 1. SF Pro fontface change into [Inter Display font](https://github.com/rsms/inter "Inter font"). Yes, an open-source alternative.
 2. Splash Screen re-render to full 50fps.
 3. Fixed Menu for Video and Minor title changes.
+4. Version build numbering scheme has been changed into the new one.
 
 ##### Found bugs (as Sep 11th)
-1. Fonts on 'Tentang' and 'Petunjuk Penggunaan hasnt fixed yet. (Still using SF Pro). `bug fix found`
-2. Few buttons arent properly linked.
+1. Fonts on 'Tentang' and 'Petunjuk Penggunaan' hasnt fixed yet. (Still using SF Pro). `bug fix found`
+2. Few buttons arent properly linked. `no need to specify further`
 
-
+<br><br><br>
 
 #### [Build 2408.2310](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202408.2310 "Build 2408.2310")   `Dev`
 ###### This version is only intended for UX Demo & Testing only
