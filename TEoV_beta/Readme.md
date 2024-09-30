@@ -4,14 +4,23 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 
 ## Planned Release Changes
-###### Next Version Release: Sept 13th `PLANNED`
-#### Build XXXX.0911 `Dev`
+###### Next Version Release: Oct 6th `PLANNED`
+#### Build XXXX.1006 `Dev`
 ###### Newer Release maybe uploaded earlier than planned date.
-1. Adding compiled Embed Videos to the respective pages.
-2. Possibly adding few materials to few sections
+1. Possible Pre-Release Beta Version
 
 
 ## Release List
+#### [Build 1209.0930](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%201209.0930 "Build 1209.0930")   `Dev`
+###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
+##### Changelogs
+1. Adding compiled Embed Videos to the respective pages.
+2. Minor font changes
+
+##### Found bugs (as ~)
+1. TBA
+
+<br><br>
 #### [Build 1356.0911](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%201356.0911 "Build 1356.0911")   `Dev`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
 ##### Changelogs
