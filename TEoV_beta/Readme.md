@@ -4,13 +4,24 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 
 ## Planned Release Changes
-###### Next Version Release: Oct 6th `PLANNED`
-#### Build XXXX.1006 `Dev`
-###### Newer Release maybe uploaded earlier than planned date.
+###### Next Version Release: Oct 13th `PLANNED`
+#### Build XXXX.1013 `Dev`
+###### Newer Release maybe uploaded earlier or later than planned date.
 1. Possible Pre-Release Beta Version
 
 
 ## Release List
+#### [Build 2410.1007](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202510107 "Build 2410.107")   `Dev`
+###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
+##### Changelogs
+1. Adding few additional menu and content inside although it's only acting as placeholder, no interactive thingamajig yet.
+2. Changes on using gif as animated elements.
+
+##### Found bugs (as Oct 7th)
+1. Some gifs didnt play `bug fix found`
+2. Few 'graphics' that imported from PowerPoint are glitching `bug fix found`
+
+<br><br>
 #### [Build 1209.0930](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%201209.0930 "Build 1209.0930")   `Dev`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
 ##### Changelogs
@@ -18,7 +29,7 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 2. Minor font changes
 
 ##### Found bugs (as ~)
-1. TBA
+###### No bug was found.
 
 <br><br>
 #### [Build 1356.0911](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%201356.0911 "Build 1356.0911")   `Dev`
