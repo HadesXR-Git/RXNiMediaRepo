@@ -11,7 +11,7 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 
 ## Release List
-#### [Build 2410.1007](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202510107 "Build 2410.107")   `Dev`
+#### [Build 2410.1007](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%2024101007 "Build 2410.1007")   `Dev`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
 ##### Changelogs
 1. Adding few additional menu and content inside although it's only acting as placeholder, no interactive thingamajig yet.
