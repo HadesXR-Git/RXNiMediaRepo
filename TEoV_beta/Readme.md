@@ -20,10 +20,7 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 ##### Found bugs (as Oct 16th)
 1. ~ 
 
-
 <br><br>
-
-## Release List
 #### [Build 2410.1007](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202410.1007 "Build 2410.1007")   `Dev`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
 ##### Changelogs
