@@ -4,11 +4,24 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 
 ## Planned Release Changes
-###### Next Version Release: Oct 13th `PLANNED`
-#### Build XXXX.1013 `Dev`
+###### Next Version Release: Oct 18th `PLANNED`
+#### Build XXXX.1018 `Dev`
 ###### Newer Release maybe uploaded earlier or later than planned date.
 1. Possible Pre-Release Beta Version
 
+
+## Release List
+#### [Build 2410.1015](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%201645.1015 "Build 2410.1015")   `Dev`
+###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up.
+##### Changelogs
+1. interactive thingamajig is now available
+2. bug fixes.
+
+##### Found bugs (as Oct 16th)
+1. ~ 
+
+
+<br><br>
 
 ## Release List
 #### [Build 2410.1007](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202410.1007 "Build 2410.1007")   `Dev`
