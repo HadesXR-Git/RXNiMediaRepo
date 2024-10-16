@@ -13,7 +13,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background: url('Untitled_.gif') no-repeat center center fixed;
+            background: url('landinganimated.gif') no-repeat center center fixed;
             background-size: cover;
             font-family: 'Inter', sans-serif;
             position: relative;
@@ -109,6 +109,9 @@
             }
         }
         @media (max-width: 480px) {
+            body {
+                overflow: hidden;
+            }
             .container {
                 margin-left: 20px;
             }
@@ -129,6 +132,9 @@
             }
         }
         @media (max-width: 768px) and (orientation: landscape) {
+            body {
+                overflow: hidden;
+            }
             .container {
                 padding: 20px;
                 margin-left: 30px;
