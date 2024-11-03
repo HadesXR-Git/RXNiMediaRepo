@@ -5,28 +5,42 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 ## Planned Release Changes
 ###### Next Version Release: Nov 3rd `PLANNED`
-#### Build XXXX.1103 `Beta Release 3`
+#### Build XXXX.11XX `BETA` `Pre-Release 4`
 ###### Newer Release maybe uploaded earlier or later than planned date.
 1. Possible Beta Release Version
 
 
 ## Release List
+#### [Build 2129.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202129.1103 "Build 2129.1103")   `BETA` `Pre-Release 3`
+##### Changelogs
+1. Bugs from IPR 2 are now fixed
+2. KdJ 1st assignment is also fixed
+
+##### Found bugs (as ~)
+1. ~
+
+<br><br>
 #### [Build 2000.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202000.1103 "Build 2000.1103")   `BETA` `Internal Pre-Release 2`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up or just click the 'Previous' button multiple times
 ##### Changelogs
-1. ~
+1. Bugs from IPR 1 are now fixed
+2. Added "CP/TP", "Sumber", and few minor things
 
 ##### Found bugs (as ~)
-1. ~ 
+1. "Asesmen" seems not working
 
 <br><br>
 #### [Build 1455.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%201455.1103 "Build 1455.1103")   `BETA` `Internal Pre-Release 1`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up or just click the 'Previous' button multiple times
 ##### Changelogs
-1. ~
+1. Added few contents on few menus
 
-##### Found bugs (as ~)
-1. ~ 
+##### Found bugs (as Nov 3rd)
+1. "Jelajah" back button is not exist
+2. Back button on "Video" sub-menu is directing into wrong place
+3. Few shadow shapes on "Tugas" menu
+4. "Tugas" sub-menu buttons having directing issues
+5. "CP/ATP" is still missing
 
 <br><br>
 #### [Build 0826.1029](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%200826.1029 "Build 0826.1029")   `Dev`
