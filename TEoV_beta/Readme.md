@@ -5,19 +5,29 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 ## Planned Release Changes
 ###### Next Version Release: Nov 3rd `PLANNED`
-#### Build XXXX.11XX `BETA` `Pre-Release 4`
+#### Build XXXX.11XX `BETA` `Pre-Release 5`
 ###### Newer Release maybe uploaded earlier or later than planned date.
 1. Possible Beta Release Version
 
 
 ## Release List
+#### [Build 2315.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202315.1103 "Build 2315.1103")   `BETA` `Pre-Release 4`
+##### Changelogs
+1. Bugs from PR 3 are now fixed
+
+##### Found bugs (as FHFD)
+1. ~
+
+<br><br>
 #### [Build 2129.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202129.1103 "Build 2129.1103")   `BETA` `Pre-Release 3`
 ##### Changelogs
 1. Bugs from IPR 2 are now fixed
 2. KdJ 1st assignment is also fixed
 
-##### Found bugs (as ~)
-1. ~
+##### Found bugs (as FHFD)
+1. Bagian kesimpulan KdJ-K terbalik dan tidak bisa dipilih
+2. Interactives Volume Prisma salah ggbBase
+3. Tulisan CP/ATP beberapa belum diganti ke CP/TP
 
 <br><br>
 #### [Build 2000.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202000.1103 "Build 2000.1103")   `BETA` `Internal Pre-Release 2`
@@ -26,7 +36,7 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 1. Bugs from IPR 1 are now fixed
 2. Added "CP/TP", "Sumber", and few minor things
 
-##### Found bugs (as ~)
+##### Found bugs (as FHFD)
 1. "Asesmen" seems not working
 
 <br><br>
@@ -34,6 +44,7 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up or just click the 'Previous' button multiple times
 ##### Changelogs
 1. Added few contents on few menus
+2. Favicons are now added. Page title also now changed
 
 ##### Found bugs (as Nov 3rd)
 1. "Jelajah" back button is not exist
