@@ -4,20 +4,39 @@ All released versions (both `Dev` and `Stable` builds) will be listed/posted [he
 
 
 ## Planned Release Changes
-###### Next Version Release: Oct 25th `PLANNED`
-#### Build XXXX.1031 `Beta PR1`
+###### Next Version Release: Nov 3rd `PLANNED`
+#### Build XXXX.1103 `Beta Release 3`
 ###### Newer Release maybe uploaded earlier or later than planned date.
-1. Possible Pre-Release Beta Version  Dev Build 0826.1029
+1. Possible Beta Release Version
 
 
 ## Release List
+#### [Build 2000.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%202000.1103 "Build 2000.1103")   `BETA` `Internal Pre-Release 2`
+###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up or just click the 'Previous' button multiple times
+##### Changelogs
+1. ~
+
+##### Found bugs (as ~)
+1. ~ 
+
+<br><br>
+#### [Build 1455.1103](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%201455.1103 "Build 1455.1103")   `BETA` `Internal Pre-Release 1`
+###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up or just click the 'Previous' button multiple times
+##### Changelogs
+1. ~
+
+##### Found bugs (as ~)
+1. ~ 
+
+<br><br>
 #### [Build 0826.1029](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%200826.1029 "Build 0826.1029")   `Dev`
 ###### This version is only intended for Testing, you may see few menus that is not properly linked yet. <br> If you found one, just refresh your browser and select "No" as the Resume dialog popping up or just click the 'Previous' button multiple times
 ##### Changelogs
 1. added Preeliminary Volume learning material. Testing further Web Objects
 
 ##### Found bugs (as Oct 22nd)
-1. ~ 
+1. Back button on "Jelajah" sub-menus directed into wrong sub menu.
+2. Wrong content on "Lp Limas"
 
 <br><br>
 #### [Build 0803.1022](https://hadesxr-git.github.io/RXNiMediaRepo/TEoV_beta/Dev%20Build%200803.1022 "Build 0803.1022")   `Dev`
