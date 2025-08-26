@@ -54,7 +54,7 @@ audio.pause();
 function Script4()
 {
   var audio = document.getElementById('bgm');
-audio.volume=0;
+audio.volume=0.1;
 }
 
 function Script5()
