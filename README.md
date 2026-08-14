@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/HadesXR-Git/RXNiMediaRepo/refs/heads/main/iMedRepo_w.svg) <br>
+![](https://raw.githubusercontent.com/HadesXR-Git/RXNiMediaRepo/refs/heads/main/iMedRepo_w-smol.png) <br>
 # RXN iMedia Repository
 
 > Web-ready e-learning content published by RXN Research&Dev.
