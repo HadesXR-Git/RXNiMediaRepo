@@ -1,196 +1,628 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
 
-  <title>Error 404 (Not Found)!!! - Under Construction</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1, minimum-scale=1, width=device-width"
+    >
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <title>Error 404 (Not Found)!!! - Under Construction</title>
 
-    html,
-    code {
-      font: 15px/22px Arial, sans-serif;
-    }
-
-    html {
-      background: #fff;
-      color: #222;
-    }
-
-    body {
-      margin: 7% auto 0;
-      max-width: 720px;
-      min-height: 300px;
-      padding: 30px 0 15px;
-      position: relative;
-
-      /*
-       * Google's original 404 robot.
-       * This is separate from iMedRepo.svg.
-       */
-      background:
-        url("https://www.google.com/images/errors/robot.png")
-        right 5px top
-        no-repeat;
-    }
-
-    /*
-     * RXN iMedia Repository artwork.
-     *
-     * The SVG contains the RXN Research&Dev /
-     * iMedia Repository branding.
-     *
-     * The robot above is a separate image.
-     */
-    #logo {
-      display: block;
-
-      /*
-       * Keep the SVG at its intended width.
-       */
-      width: 450px;
-      height: auto;
-
-      margin-left: -5px;
-
-      /*
-       * Slight 404 displacement.
-       * This is intentional.
-       */
-      transform: translate(-8px, 0);
-    }
-
-    .error {
-      margin-top: 10px;
-    }
-
-    p {
-      margin: 11px 0 22px;
-      overflow: hidden;
-    }
-
-    b {
-      font-weight: 700;
-    }
-
-    ins {
-      color: #777;
-      text-decoration: none;
-    }
-
-    code {
-      color: #222;
-    }
-
-    /*
-     * Desktop
-     */
-    @media screen and (min-width: 773px) {
-
-      body {
-        /*
-         * Leave room for Google's robot.
-         */
-        padding-right: 205px;
-      }
-
-      #logo {
-        /*
-         * Let the artwork slightly escape its
-         * normal alignment on the 404 page.
-         */
-        transform: translate(-12px, -3px);
-      }
-    }
-
-    /*
-     * Tablet / mobile
-     */
-    @media screen and (max-width: 772px) {
-
-      body {
-        margin: 0 auto;
-        max-width: 100%;
-        min-height: 0;
-        padding: 20px;
-
-        /*
-         * Hide the large desktop robot on small screens,
-         * just like Google's original responsive behavior.
-         */
-        background: none;
-      }
-
-      #logo {
-        width: min(450px, 100%);
-        height: auto;
-        margin-left: 0;
-        transform: none;
-      }
-
-      .error {
-        margin-top: 15px;
-      }
-    }
-
-    /*
-     * Very small screens
-     */
-    @media screen and (max-width: 480px) {
-
-      body {
-        padding: 15px;
-      }
-
-      #logo {
-        width: 100%;
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
       }
 
       html,
       code {
-        font-size: 14px;
-        line-height: 21px;
+        font: 15px/22px arial, sans-serif;
       }
 
+      html {
+        background: #fff;
+        color: #222;
+        padding: 15px;
+      }
+
+      /*
+       * ==================================================
+       * DESKTOP
+       * ==================================================
+       *
+       * 769px and above.
+       */
+      body {
+        margin: 7% auto 0;
+        max-width: 390px;
+        min-height: 180px;
+
+        padding: 30px 0 15px;
+
+        background:
+          url("https://www.google.com/images/errors/robot.png")
+          100% 5px
+          no-repeat;
+
+        padding-right: 205px;
+      }
+
+      /*
+       * ==================================================
+       * 404 TEXT
+       * ==================================================
+       *
+       * Desktop:
+       * - 30px to the right
+       * - 20px upward
+       */
       p {
-        margin-bottom: 18px;
+        margin: -20px 0 22px 30px;
+        overflow: hidden;
       }
-    }
-  </style>
-</head>
 
-<body>
+      ins {
+        color: #777;
+        text-decoration: none;
+      }
 
-  <!--
-    RXN iMedia Repository artwork.
-  -->
-  <img
-    id="logo"
-    src="https://raw.githubusercontent.com/HadesXR-Git/RXNiMediaRepo/main/iMedRepo.svg"
-    alt="RXN iMedia Repository"
-  >
+      a img {
+        border: 0;
+      }
 
-  <div class="error">
+      /*
+       * ==================================================
+       * LOGO LINK
+       * ==================================================
+       *
+       * The logo links to the GitHub repository.
+       * The logo and link cannot be dragged.
+       */
+      .logo-container,
+      .logo-container a {
+        user-select: none;
+        -webkit-user-select: none;
+      }
 
+      .logo-container a {
+        -webkit-user-drag: none;
+      }
+
+      /*
+       * ==================================================
+       * RXN iMEDIA REPOSITORY SVG
+       * ==================================================
+       *
+       * Approximately 25% smaller than the original
+       * 450px version.
+       */
+      #logo {
+        display: inline-block;
+
+        width: 338px;
+        height: auto;
+
+        margin-left: -5px;
+
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+      }
+
+      /*
+       * ==================================================
+       * NORMAL TEXT LOGO FALLBACK
+       * ==================================================
+       */
+      #logo-text {
+        display: none;
+      }
+
+      /*
+       * ==================================================
+       * ULTRA-SMALL TEXT LOGO
+       * ==================================================
+       *
+       * Used only below 124px.
+       */
+      #ultra-logo {
+        display: none;
+      }
+
+      /*
+       * ==================================================
+       * 481px - 772px
+       * ==================================================
+       *
+       * Full SVG logo.
+       * Error text shifted 30px right.
+       * Robot moves below the content.
+       */
+      @media screen and (min-width: 481px) and (max-width: 772px) {
+        body {
+          background: none;
+
+          margin-top: 0;
+          max-width: none;
+
+          padding: 20px;
+        }
+
+        #logo {
+          width: min(338px, 100%);
+          height: auto;
+
+          margin-left: -5px;
+        }
+
+        p {
+          margin: -10px 0 20px 30px;
+        }
+
+        body::after {
+          content: "";
+
+          display: block;
+
+          width: 100%;
+          height: 238px;
+
+          margin-top: 10px;
+
+          background:
+            url("https://www.google.com/images/errors/robot.png")
+            center top
+            no-repeat;
+
+          background-size: contain;
+        }
+      }
+
+      /*
+       * ==================================================
+       * 251px - 480px
+       * ==================================================
+       *
+       * Center the SVG, error text and robot.
+       */
+      @media screen and (min-width: 251px) and (max-width: 480px) {
+        html,
+        code {
+          font-size: 14px;
+          line-height: 21px;
+        }
+
+        body {
+          background: none;
+
+          margin-top: 0;
+          max-width: none;
+
+          padding: 15px;
+
+          text-align: center;
+        }
+
+        .logo-container {
+          text-align: center;
+        }
+
+        #logo {
+          display: inline-block;
+
+          width: min(338px, 100%);
+          height: auto;
+
+          margin-left: 0;
+        }
+
+        p {
+          margin: -10px 0 20px 0;
+
+          overflow: visible;
+
+          text-align: center;
+        }
+
+        body::after {
+          content: "";
+
+          display: block;
+
+          width: 100%;
+          height: 200px;
+
+          margin-top: 10px;
+
+          background:
+            url("https://www.google.com/images/errors/robot.png")
+            center top
+            no-repeat;
+
+          background-size: contain;
+        }
+      }
+
+      /*
+       * ==================================================
+       * 180px - 250px
+       * ==================================================
+       *
+       * Text-based RXN logo.
+       *
+       * Keep:
+       * - RXN Research&Dev
+       * - iMedia Repository
+       * - 404
+       * - robot
+       */
+      @media screen and (min-width: 180px) and (max-width: 250px) {
+        html,
+        code {
+          font-size: 14px;
+          line-height: 21px;
+        }
+
+        body {
+          background: none;
+
+          margin-top: 0;
+          max-width: none;
+
+          padding: 15px;
+
+          text-align: center;
+        }
+
+        #logo {
+          display: none;
+        }
+
+        #logo-text {
+          display: inline-block;
+
+          margin-left: 0;
+          margin-bottom: 8px;
+
+          font-family: Arial, sans-serif;
+
+          text-align: center;
+          text-decoration: none;
+        }
+
+        #logo-text .brand {
+          display: block;
+
+          font-size: 13px;
+          line-height: 16px;
+
+          font-weight: 400;
+
+          color: #222;
+        }
+
+        #logo-text .repository {
+          display: block;
+
+          font-size: 21px;
+          line-height: 24px;
+
+          font-weight: 700;
+
+          color: #4285f4;
+        }
+
+        p {
+          margin: 11px 0 22px 0;
+
+          overflow: visible;
+
+          text-align: center;
+        }
+
+        body::after {
+          content: "";
+
+          display: block;
+
+          width: 100%;
+          height: 180px;
+
+          margin-top: 10px;
+
+          background:
+            url("https://www.google.com/images/errors/robot.png")
+            center top
+            no-repeat;
+
+          background-size: contain;
+        }
+      }
+
+      /*
+       * ==================================================
+       * 124px - 179px
+       * ==================================================
+       *
+       * Compact text-based layout:
+       *
+       * RXN Research&Dev
+       * iMedia Repository
+       *
+       * 404. That's an error.
+       * robot
+       *
+       * iMedia Repository is intentionally NOT bold
+       * at this size.
+       */
+      @media screen and (min-width: 124px) and (max-width: 179px) {
+        html,
+        code {
+          font-size: 13px;
+          line-height: 18px;
+        }
+
+        html {
+          padding: 8px;
+        }
+
+        body {
+          background: none;
+
+          margin-top: 0;
+          max-width: none;
+          min-height: 0;
+
+          padding: 8px;
+
+          text-align: center;
+        }
+
+        #logo {
+          display: none;
+        }
+
+        #logo-text {
+          display: inline-block;
+
+          margin: 0 0 8px 0;
+
+          font-family: Arial, sans-serif;
+
+          text-align: center;
+          text-decoration: none;
+        }
+
+        #logo-text .brand {
+          display: block;
+
+          font-size: 13px;
+          line-height: 16px;
+
+          font-weight: 400;
+
+          color: #222;
+        }
+
+        #logo-text .repository {
+          display: block;
+
+          font-size: 13px;
+          line-height: 16px;
+
+          font-weight: 400;
+
+          color: #4285f4;
+        }
+
+        p {
+          margin: 8px 0;
+
+          overflow: visible;
+
+          text-align: center;
+        }
+
+        /*
+         * Hide the full explanation.
+         */
+        p + p {
+          display: none;
+        }
+
+        /*
+         * Keep the robot underneath.
+         */
+        body::after {
+          content: "";
+
+          display: block;
+
+          width: 100%;
+          height: 150px;
+
+          margin-top: 8px;
+
+          background:
+            url("https://www.google.com/images/errors/robot.png")
+            center top
+            no-repeat;
+
+          background-size: contain;
+        }
+      }
+
+      /*
+       * ==================================================
+       * UNDER 124px
+       * ==================================================
+       *
+       * Absolute minimum mode:
+       *
+       * RXN R&D
+       * iMR
+       *
+       * 404.
+       * That's an error.
+       *
+       * No SVG.
+       * No robot.
+       * No explanation.
+       */
+      @media screen and (max-width: 123px) {
+        html,
+        code {
+          font-size: 12px;
+          line-height: 16px;
+        }
+
+        html {
+          padding: 4px;
+        }
+
+        body {
+          background: none;
+
+          margin: 0;
+          max-width: none;
+          min-height: 0;
+
+          padding: 4px;
+
+          text-align: center;
+        }
+
+        /*
+         * Hide all normal branding.
+         */
+        #logo {
+          display: none;
+        }
+
+        #logo-text {
+          display: none;
+        }
+
+        /*
+         * Show the dedicated ultra-compact label.
+         */
+        #ultra-logo {
+          display: inline-block;
+
+          margin: 0 0 6px 0;
+
+          font-family: Arial, sans-serif;
+
+          font-size: 12px;
+          line-height: 14px;
+          font-weight: 700;
+
+          color: #222;
+
+          text-align: center;
+          text-decoration: none;
+          white-space: nowrap;
+        }
+
+        #ultra-logo span {
+          color: #4285f4;
+        }
+
+        /*
+         * Only keep the 404 line.
+         */
+        p {
+          margin: 6px 0;
+
+          overflow: visible;
+
+          text-align: center;
+        }
+
+        /*
+         * Hide the full explanation.
+         */
+        p + p {
+          display: none;
+        }
+
+        /*
+         * No images at this size.
+         */
+        body::after {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!--
+      RXN iMedia Repository branding.
+
+      >250px:
+        Full SVG
+
+      180px-250px:
+        Text-based RXN + iMedia Repository
+
+      124px-179px:
+        RXN Research&Dev + iMedia Repository + robot
+
+      <124px:
+        RXN R&D / iMR + 404 only
+    -->
+    <div class="logo-container">
+
+      <a
+        href="https://github.com/HadesXR-Git/RXNiMediaRepo"
+        title="Visit the GitHub Repository"
+        draggable="false"
+      >
+        <!-- Full SVG logo -->
+        <img
+          id="logo"
+          src="https://raw.githubusercontent.com/HadesXR-Git/RXNiMediaRepo/main/iMedRepo.svg"
+          alt="RXN iMedia Repository"
+          draggable="false"
+        >
+
+        <!-- Normal text fallback -->
+        <span id="logo-text">
+          <span class="brand"><b>RXN</b> Research&amp;Dev</span>
+          <span class="repository">iMedia Repository</span>
+        </span>
+
+        <!-- Ultra-small text fallback -->
+        <span id="ultra-logo">
+          RXN R&amp;D <br>
+          <span>iMR</span>
+        </span>
+      </a>
+
+    </div>
+
+    <!--
+      404 message
+    -->
     <p>
-      <b>404.</b>
+      <b>404.</b> <br>
       <ins>That’s an error.</ins>
     </p>
 
+    <!--
+      Full explanation.
+      Hidden below 180px.
+    -->
     <p>
       The requested page
       <code>iMedia Repository</code>
-      is still on construction.
+      is still under construction.
       <ins>That’s all we know.</ins>
     </p>
 
-  </div>
-
-</body>
+  </body>
 </html>
